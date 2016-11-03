@@ -42,15 +42,15 @@ a+1 trỏ đến dòng thứ hai
 a+2 trỏ đến dòng thứ ba*  
 
 VD: nhập giá trị của ma trận hai chiều:  
-    `float a[10][20];`        
-    `int i,j,n;    
+    `float a[10][20];`         
+    `int i,j,n;`      
     `printf("Nhap vao kich thuoc ma tran n=");`          
-    `scanf("%n",&n);`      
+    `scanf("%n",&n);`     
     `for(i=0;i<n;i++)`      
-        `for(j=0;j<n;j++)`      
+        `for(j=0;j<n;j++)`  
         `{`       
             `printf("a[%d][%d] = ",i,j);`      
-            `scanf("%f",(float *)a+i*20+j);`      
+            `scanf("%f",(float *)a+i*20+j);`        
         `}`           
 <a name = Phép_toán><a\>
 ###4. Phép toán trên con trỏ  
