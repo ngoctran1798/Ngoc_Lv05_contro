@@ -44,7 +44,7 @@ a+2 trỏ đến dòng thứ ba*
 VD: nhập giá trị của ma trận hai chiều:  
     `float a[10][20];`        
     `int i,j,n;    
-    `printf("Nhap vao kich thuoc ma tran n=");        
+    `printf("Nhap vao kich thuoc ma tran n=");`          
     `scanf("%n",&n);`      
     `for(i=0;i<n;i++)`      
         `for(j=0;j<n;j++)`      
