@@ -1,5 +1,10 @@
-Trần Thị Ngọc
-#**Báo cáo học Con trỏ**    
+Trần Thị Ngọc  
+
+#**Báo cáo học Con trỏ**   
+  
+  ---  
+    
+      
 [Khái niệm](#Khái_niệm)    
 [Con trỏ với mảng một chiều](#Mảng_một_chiều)    
 [Con trỏ với mảng nhiều chiều](#Mảng_nhiều_chiều)   
@@ -15,22 +20,26 @@ Trần Thị Ngọc
 -Địa chỉ trên bộ nhớ nơi lưu trữ giá trị của biến  
 -Kiểu dữ liệu  
 Khai báo:    
-`<kiểu_DL> * <tên_biến_con_trỏ>;`  
+```  
+<kiểu_DL> * <tên_biến_con_trỏ>;
+```  
 VD:`int x = 45;`   
 
 <a name = Mảng_một_chiều><a\>  
 ###2. Con trỏ và mảng 1 chiều    
 *Các phần tử của mảng có thể được xác định thông qua con trỏ.*    
 VD: Nhập từ bàn phím các phần tử của mảng và tính tổng các phần tử đó  
-    `float a[5], s ; int i;`       
-    `for(i=0;i<5;i++)`        
-    `{`        
-        `printf(“\na[%d]= ”,i);`         
-        `scanf(“%f”,&a[i]);`      
-    `}`        
-    `s=0;`      
-    `for (i=0;i<5;i++) s+=a[i];`        
-    `printf(“\n Tong =%8.2f”,s);`        
+    ```
+    float a[5], s ; int i;       
+    for(i=0;i<5;i++)     
+    {        
+        printf(“\na[%d]= ”,i);         
+        scanf(“%f”,&a[i]);    
+    }       
+    s=0;      
+    for (i=0;i<5;i++) s+=a[i];
+    printf(“\n Tong =%8.2f”,s);  
+    ```
           
 
 <a name = Mảng_nhiều_chiều><a\>    
