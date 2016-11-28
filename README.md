@@ -29,7 +29,7 @@ VD:`int x = 45;`
 ###2. Con trỏ và mảng 1 chiều    
 *Các phần tử của mảng có thể được xác định thông qua con trỏ.*    
 VD: Nhập từ bàn phím các phần tử của mảng và tính tổng các phần tử đó  
-    ```
+   
     
     float a[5], s ; int i;         
     for(i=0;i<5;i++)       
@@ -41,7 +41,7 @@ VD: Nhập từ bàn phím các phần tử của mảng và tính tổng các p
     for (i=0;i<5;i++) s+=a[i];  
     printf(“\n Tong =%8.2f”,s);  
     
-    ```
+   
           
 <a name = Mảng_nhiều_chiều><a\>    
 ###3. Con trỏ với mảng nhiều chiều    
